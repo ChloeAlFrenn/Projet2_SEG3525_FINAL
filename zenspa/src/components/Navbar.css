@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-color: #6B9080; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.left_section {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.right_section {
+  display: flex;
+}
+
+
+.right_section .links {
+  margin: 0 0.5em;
+}
+
+.links {
+  text-decoration: none;
+  color: #F6FFF8;;
+  font-size: 1.3em;
+
+}
+
+.links:hover {
+  color: #CCE3DE;
+}

@@ -1,0 +1,24 @@
+.review-container {
+    border: 1px solid #6B9080;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #EAF4F4;
+  }
+  
+  .review-comment {
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+    color: #6B9080;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .review-rating .star {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .review-rating .star.filled {
+    color: #FFD700; 
+  }
+  

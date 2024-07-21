@@ -1,0 +1,107 @@
+.reservation-container {
+    padding: 20px;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  }
+
+  
+  .option-selection {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .option-selection h1{
+    text-align: center;
+    color: #6B9080;
+    font-size: 2.5em;
+  }
+  
+  .option-selection button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #6B9080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  }
+  
+  .option-selection button:hover {
+    background-color: #557a68;
+  }
+  
+  .reservation-form {
+    margin-top: 20px;
+  }
+  
+  .reservation-form h1 {
+    font-size: 2.5em;
+    color: #6B9080;
+    text-align: center;
+  }
+  
+  .form-section {
+    margin: 20px 0;
+    
+  }
+  
+  .form-section h2 {
+    font-size: 1.5em;
+    color: #6B9080;
+  }
+  
+  .form-section select,
+  .form-section input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+    color: #6B9080;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #6B9080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #557a68;
+  }
+  
+  .back-button {
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #557a68;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #6B9080;
+  }
+  
+  .confirmation-message {
+    text-align: center;
+    font-size: 1.5em;
+    color: #6B9080;
+  }
+  

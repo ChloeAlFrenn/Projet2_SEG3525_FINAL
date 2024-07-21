@@ -1,0 +1,28 @@
+.video-container {
+    display: flex;
+    align-items: flex-start; 
+    margin-top: 30px;
+  }
+  
+  .video-text {
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
+  }
+  
+  .video-iframe {
+    flex-basis: 40%;
+  }
+  
+  .video-title {
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+    color: #6B9080;
+    font-size: 2rem;
+  }
+  
+  .video-description {
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+    color: #6B9080;
+    font-size: 1.3rem;
+  }
+  

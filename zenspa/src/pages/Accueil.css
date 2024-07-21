@@ -1,0 +1,68 @@
+.accueil {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  }
+  
+  .accueil h1 {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 2em;
+    color: #6B9080; 
+  }
+  
+  .image-container {
+    background-color: #CCE3DE;
+    display: flex;
+    justify-content: flex-start; 
+    overflow: hidden;
+  }
+  
+  .accueilimg {
+    width: 50%;
+    margin-left: 0;
+  }
+  
+  .spa-description {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    font-size: 1.4em;
+    color: #6B9080;
+    line-height: 1.6;
+
+  }
+  
+  .contact-section {
+    padding: 15px;
+    background-color: #EAF4F4;
+    color: #6B9080;
+  }
+  
+  .contact-section h2 {
+    margin: 15px;
+    font-size: 1.7em;
+    color: #6B9080;
+  }
+  
+  .contact-section p {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .contact-section .opening-hours {
+    margin-top: 30px;
+  }
+  
+  .contact-section ul {
+    margin-top: 0;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-section ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,52 @@
+.avis-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+    color: #6B9080;
+  }
+  
+  .avis-container h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #6B9080;
+  }
+  
+  .review-form {
+    margin-top: 20px;
+  }
+  
+  .review-form input[type="text"],
+  .review-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+    color: #6B9080;
+  }
+  
+  .review-form button[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #6B9080;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  }
+  
+  .review-form button[type="submit"]:hover {
+    background-color: #557a68;
+  }
+  
+  .review-form h3{
+    margin-bottom: 0;
+  }
