@@ -11,7 +11,7 @@ import Avis from "../pages/Avis";
 function Routing() {
   return (
     <Routes>
-       <Route path="/Projet2_SEG3525" element={<Accueil />} /> 
+       <Route path="/Projet2_SEG3525_FINAL" element={<Accueil />} /> 
       <Route path="/" element={<Accueil />} />
       <Route path="/MassagesSoins" element={<MassagesSoins />} />
       <Route path="/Reservation" element={<Reservation/>}/>
