@@ -7,11 +7,11 @@ function Accueil() {
   const { language } = useContext(LanguageContext);
 
   return (
-    <div className="accueil">
-      <div>
+    <main className="accueil">
+      <header>
         <h1>{language === 'fr' ? 'ZenSpa: Redécouvrez le bien-être, un massage à la fois' : 'ZenSpa: Rediscover Well-being, One Massage at a Time'}</h1>
-      </div>
-      <div className="image-container">
+      </header>
+      <section className="image-container" role="img" aria-label={language === 'fr' ? 'image d\'accueil' : 'home image'}>
         <img className='accueilimg' src={alex} alt={language === 'fr' ? 'image d\'accueil' : 'home image'} />
         <p className="spa-description">
           {language === 'fr' 
@@ -19,8 +19,8 @@ function Accueil() {
             : 'At ZenSpa, we firmly believe in the importance of self-care, both physically and mentally. We offer a full range of relaxing and therapeutic massages, as well as specialized treatments to revitalize your body and soothe your mind.'
           }
         </p>
-      </div>
-      <div className="contact-section">
+      </section>
+      <section className="contact-section">
         <h2>{language === 'fr' ? 'Contactez-nous' : 'Contact Us'}</h2>
         <p><strong>Email:</strong> contact@zenspa.com</p>
         <p><strong>{language === 'fr' ? 'Adresse' : 'Address'}:</strong> 123 Rue du Spa, Ottawa, Canada</p>
@@ -33,8 +33,8 @@ function Accueil() {
             <li>{language === 'fr' ? 'Dimanche: Fermé' : 'Sunday: Closed'}</li>
           </ul>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
