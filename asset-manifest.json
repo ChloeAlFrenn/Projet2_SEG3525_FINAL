@@ -1,17 +1,26 @@
 {
   "files": {
     "main.css": "/Projet2_SEG3525_FINAL/static/css/main.3ed85ac1.css",
-    "main.js": "/Projet2_SEG3525_FINAL/static/js/main.39211586.js",
+    "main.js": "/Projet2_SEG3525_FINAL/static/js/main.75899766.js",
     "static/media/rosa-rafael-Pe9IXUuC6QU-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/rosa-rafael-Pe9IXUuC6QU-unsplash.d7a16a2ca1a832257a58.jpg",
+    "static/media/taylor-heery-338wbGMMjP4-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/taylor-heery-338wbGMMjP4-unsplash.1acffb707c82df0928c3.jpg",
+    "static/media/simon-humler--AakIaAPV0w-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/simon-humler--AakIaAPV0w-unsplash.21c7736cdd7a71bdd6bc.jpg",
+    "static/media/antonika-chanel-RJCslxmvBcs-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/antonika-chanel-RJCslxmvBcs-unsplash.83cd973a9be3146921fd.jpg",
+    "static/media/alan-caishan-cU53ZFBr3lk-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/alan-caishan-cU53ZFBr3lk-unsplash.59967a3ae4fe134e4191.jpg",
+    "static/media/engin-akyurt-SMwCQZWayj0-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/engin-akyurt-SMwCQZWayj0-unsplash.11a9031ea213ab421e0b.jpg",
     "static/media/engin-akyurt-ZbzYDboN7fg-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/engin-akyurt-ZbzYDboN7fg-unsplash.fce9fb9ea2dc05a0d984.jpg",
     "static/media/jared-rice-NTyBbu66_SI-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/jared-rice-NTyBbu66_SI-unsplash.00adb487dd46b7a60967.jpg",
+    "static/media/ale-romo-CLiwQXx7kT8-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/ale-romo-CLiwQXx7kT8-unsplash.476861c7cc3bd73c2947.jpg",
+    "static/media/jonathan-cooper-GtdOTF-sNEY-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/jonathan-cooper-GtdOTF-sNEY-unsplash.62ae63c88f438ed50960.jpg",
+    "static/media/toa-heftiba-a9pFSC8dTlo-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/toa-heftiba-a9pFSC8dTlo-unsplash.ec7eb83a429d8e32330a.jpg",
     "static/media/alex-bertha-Jyg7xHRmXiU-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/alex-bertha-Jyg7xHRmXiU-unsplash.1893805a5d390be04a89.jpg",
+    "static/media/adrian-motroc-87InWldRhgs-unsplash.jpg": "/Projet2_SEG3525_FINAL/static/media/adrian-motroc-87InWldRhgs-unsplash.94485c737e5c660c68c6.jpg",
     "index.html": "/Projet2_SEG3525_FINAL/index.html",
     "main.3ed85ac1.css.map": "/Projet2_SEG3525_FINAL/static/css/main.3ed85ac1.css.map",
-    "main.39211586.js.map": "/Projet2_SEG3525_FINAL/static/js/main.39211586.js.map"
+    "main.75899766.js.map": "/Projet2_SEG3525_FINAL/static/js/main.75899766.js.map"
   },
   "entrypoints": [
     "static/css/main.3ed85ac1.css",
-    "static/js/main.39211586.js"
+    "static/js/main.75899766.js"
   ]
 }
