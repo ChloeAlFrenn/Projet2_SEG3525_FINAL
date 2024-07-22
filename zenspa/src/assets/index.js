@@ -6,5 +6,10 @@ import ale from "./ale-romo-CLiwQXx7kT8-unsplash.jpg"
 import adrian from "./adrian-motroc-87InWldRhgs-unsplash.jpg"
 import engin2 from "./engin-akyurt-SMwCQZWayj0-unsplash.jpg"
 import alan from "./alan-caishan-cU53ZFBr3lk-unsplash.jpg"
+import antonika from "./antonika-chanel-RJCslxmvBcs-unsplash.jpg"
+import taylor from "./taylor-heery-338wbGMMjP4-unsplash.jpg"
+import toa from "./toa-heftiba-a9pFSC8dTlo-unsplash.jpg"
+import simon from "./simon-humler--AakIaAPV0w-unsplash.jpg"
+import jonathan from "./jonathan-cooper-GtdOTF-sNEY-unsplash.jpg"
 
-export{alex, engin, rosa, jared, ale, adrian, engin2, alan};
+export{alex, engin, rosa, jared, ale, adrian, engin2, alan, antonika, taylor, toa, simon, jonathan};

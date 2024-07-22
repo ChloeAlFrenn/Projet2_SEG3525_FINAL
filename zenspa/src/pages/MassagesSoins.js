@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./MassagesSoins.css";
-import { engin, rosa, ale, engin2, adrian, alan} from "../assets/index";
+import { engin, rosa, ale, engin2, adrian, alan, antonika, taylor, toa, simon, jonathan} from "../assets/index";
 import { useNavigate } from 'react-router-dom';
 import LanguageContext from '../components/LanguageContext';
 
@@ -72,7 +72,7 @@ const services = [
       fr: "Partagez un moment de relaxation avec notre massage en couple, idéal pour deux personnes. Disponible à partir de 200$.",
       en: "Share a moment of relaxation with our couple's massage, ideal for two people. Available from $200."
     },
-    image: engin,
+    image: toa,
     people: "Deux personnes"
   },
   {
@@ -82,7 +82,7 @@ const services = [
       fr: "Ce soin hydratant est parfait pour revitaliser et hydrater la peau sèche. Disponible à partir de 70$.",
       en: "This hydrating facial treatment is perfect for revitalizing and moisturizing dry skin. Available from $70."
     },
-    image: rosa,
+    image: antonika,
     people: "Individuel"
   },
   {
@@ -92,7 +92,7 @@ const services = [
       fr: "Notre traitement de détoxification corporelle aide à éliminer les toxines et à revitaliser votre corps. Disponible à partir de 100$.",
       en: "Our body detox treatment helps to eliminate toxins and revitalize your body. Available from $100."
     },
-    image: engin,
+    image: simon,
     people: "Individuel"
   },
   {
@@ -102,7 +102,7 @@ const services = [
       fr: "Profitez de notre soin du visage en duo, idéal pour partager un moment de détente et de soin avec un proche. Disponible à partir de 150$.",
       en: "Enjoy our duo facial treatment, perfect for sharing a moment of relaxation and care with a loved one. Available from $150."
     },
-    image: rosa,
+    image: taylor,
     people: "Deux personnes"
   },
   {
@@ -112,7 +112,7 @@ const services = [
       fr: "Notre enveloppement corporel en duo combine des ingrédients naturels pour hydrater et revitaliser votre peau, parfait pour deux personnes. Disponible à partir de 160$.",
       en: "Our duo body wrap combines natural ingredients to hydrate and revitalize your skin, perfect for two people. Available from $160."
     },
-    image: engin,
+    image: jonathan,
     people: "Deux personnes"
   }
 ];
