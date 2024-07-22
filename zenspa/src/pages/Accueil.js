@@ -12,7 +12,7 @@ function Accueil() {
         <h1>{language === 'fr' ? 'ZenSpa: Redécouvrez le bien-être, un massage à la fois' : 'ZenSpa: Rediscover Well-being, One Massage at a Time'}</h1>
       </header>
       <section className="image-container" role="img" aria-label={language === 'fr' ? 'image d\'accueil' : 'home image'}>
-        <img className='accueilimg' src={alex} alt={language === 'fr' ? 'image d\'accueil' : 'home image'} />
+        <img className='accueilimg' src={alex} alt={language === 'fr' ? 'image d\'accueil de quelqu\'un dans un spa' : 'home image of someone in a spa'} />
         <p className="spa-description">
           {language === 'fr' 
             ? 'Chez ZenSpa, nous croyons fermement en l\'importance de prendre soin de soi tant physiquement que mentalement. Nous offrons une gamme complète de massages relaxants et thérapeutiques, ainsi que des soins spécialisés pour revitaliser votre corps et apaiser votre esprit.' 

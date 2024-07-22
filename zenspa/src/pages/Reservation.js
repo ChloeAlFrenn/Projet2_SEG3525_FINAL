@@ -8,17 +8,17 @@ function Reservation() {
   const { language } = useContext(LanguageContext);
 
   const services = [
-    "Massage Suédois",
-    "Soin pour le visage Zen",
-    "Enveloppement corporel",
-    "Massage aux pierres chaudes",
-    "Soin du visage anti-âge",
-    "Gommage corporel",
-    "Massage en couple",
-    "Soin du visage hydratant",
     "Détoxification corporelle",
+    "Enveloppement corporel",
+    "Enveloppement corporel en duo",
+    "Gommage corporel",
+    "Massage aux pierres chaudes",
+    "Massage en couple",
+    "Massage Suédois",
+    "Soin du visage anti-âge",
     "Soin du visage en duo",
-    "Enveloppement corporel en duo"
+    "Soin du visage hydratant",
+    "Soin pour le visage Zen"
   ];
 
   const [selectedOption, setSelectedOption] = useState("");
