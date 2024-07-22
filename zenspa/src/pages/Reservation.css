@@ -61,6 +61,7 @@
     border-radius: 5px;
     font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
     color: #6B9080;
+  
   }
   
   button[type="submit"] {
@@ -75,6 +76,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
   }
   
   button[type="submit"]:hover {
@@ -93,6 +95,7 @@
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
   }
   
   .back-button:hover {
