@@ -101,6 +101,10 @@ const Quiz = () => {
     navigate('/Reservation', { state: { service: selectedService } });
   };
 
+  const handleReturn = () => {
+    navigate('/MassagesSoins');
+  };
+
   return (
     <div className="quiz-container">
       <div className="quiz-header">
@@ -127,6 +131,9 @@ const Quiz = () => {
         <button type="submit" className="quiz-submit">
           {language === 'fr' ? 'Soumettre le quiz' : 'Submit the quiz'}
         </button>
+        <button onClick={handleReturn} className="return-button">
+            {language === 'fr' ? 'Retour' : 'Return'}
+          </button>
       </form>
       {selectedService && (
         <div className="quiz-service">

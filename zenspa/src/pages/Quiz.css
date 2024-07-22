@@ -28,6 +28,7 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
 }
 
 .answer-button {
@@ -76,6 +77,25 @@
   color: #6B9080;
 }
 
+.return-button{
+  display: block;
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 1.5em;
+  color: #fff;
+  background-color: #6B9080;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  transition: background-color 0.3s;
+}
+
+.return-button:hover {
+  background-color: #557a68;
+}
+
 .booking-button {
   display: block;
   max-width: 300px;
@@ -90,6 +110,7 @@
   font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
   transition: background-color 0.3s;
 }
+
 
 .booking-button:hover {
   background-color: #557a68;
