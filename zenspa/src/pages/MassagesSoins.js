@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import "./MassagesSoins.css";
 import { engin, rosa } from "../assets/index";
 import { useNavigate } from 'react-router-dom';
-import LanguageContext from '../components/LanguageContext'; // Adjust the path as needed
+import LanguageContext from '../components/LanguageContext';
 
 const services = [
   {
@@ -25,7 +25,96 @@ const services = [
     image: rosa,
     people: "Individuel"
   },
-  // Add more services here...
+  {
+    type: "Soin pour le corps",
+    name: "Enveloppement corporel",
+    description: {
+      fr: "Profitez de notre enveloppement corporel, qui combine des ingrédients naturels pour hydrater et revitaliser votre peau. Disponible à partir de 80$.",
+      en: "Enjoy our body wrap, which combines natural ingredients to hydrate and revitalize your skin. Available from $80."
+    },
+    image: engin,
+    people: "Individuel"
+  },
+  {
+    type: "Massage",
+    name: "Massage aux pierres chaudes",
+    description: {
+      fr: "Le massage aux pierres chaudes utilise des pierres chauffées pour détendre et apaiser les muscles tendus. Disponible à partir de 120$.",
+      en: "Hot stone massage uses heated stones to relax and soothe tense muscles. Available from $120."
+    },
+    image: engin,
+    people: "Individuel"
+  },
+  {
+    type: "Soin pour le visage",
+    name: "Soin du visage anti-âge",
+    description: {
+      fr: "Ce soin anti-âge est conçu pour réduire les signes de vieillissement et améliorer l'élasticité de la peau. Disponible à partir de 90$.",
+      en: "This anti-aging facial treatment is designed to reduce signs of aging and improve skin elasticity. Available from $90."
+    },
+    image: rosa,
+    people: "Individuel"
+  },
+  {
+    type: "Soin pour le corps",
+    name: "Gommage corporel",
+    description: {
+      fr: "Notre gommage corporel exfolie et adoucit votre peau en utilisant des ingrédients naturels. Disponible à partir de 70$.",
+      en: "Our body scrub exfoliates and softens your skin using natural ingredients. Available from $70."
+    },
+    image: engin,
+    people: "Individuel"
+  },
+  {
+    type: "Massage",
+    name: "Massage en couple",
+    description: {
+      fr: "Partagez un moment de relaxation avec notre massage en couple, idéal pour deux personnes. Disponible à partir de 200$.",
+      en: "Share a moment of relaxation with our couple's massage, ideal for two people. Available from $200."
+    },
+    image: engin,
+    people: "Deux personnes"
+  },
+  {
+    type: "Soin pour le visage",
+    name: "Soin du visage hydratant",
+    description: {
+      fr: "Ce soin hydratant est parfait pour revitaliser et hydrater la peau sèche. Disponible à partir de 70$.",
+      en: "This hydrating facial treatment is perfect for revitalizing and moisturizing dry skin. Available from $70."
+    },
+    image: rosa,
+    people: "Individuel"
+  },
+  {
+    type: "Soin pour le corps",
+    name: "Détoxification corporelle",
+    description: {
+      fr: "Notre traitement de détoxification corporelle aide à éliminer les toxines et à revitaliser votre corps. Disponible à partir de 100$.",
+      en: "Our body detox treatment helps to eliminate toxins and revitalize your body. Available from $100."
+    },
+    image: engin,
+    people: "Individuel"
+  },
+  {
+    type: "Soin pour le visage",
+    name: "Soin du visage en duo",
+    description: {
+      fr: "Profitez de notre soin du visage en duo, idéal pour partager un moment de détente et de soin avec un proche. Disponible à partir de 150$.",
+      en: "Enjoy our duo facial treatment, perfect for sharing a moment of relaxation and care with a loved one. Available from $150."
+    },
+    image: rosa,
+    people: "Deux personnes"
+  },
+  {
+    type: "Soin pour le corps",
+    name: "Enveloppement corporel en duo",
+    description: {
+      fr: "Notre enveloppement corporel en duo combine des ingrédients naturels pour hydrater et revitaliser votre peau, parfait pour deux personnes. Disponible à partir de 160$.",
+      en: "Our duo body wrap combines natural ingredients to hydrate and revitalize your skin, perfect for two people. Available from $160."
+    },
+    image: engin,
+    people: "Deux personnes"
+  }
 ];
 
 function MassagesSoins() {
