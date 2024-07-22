@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Video.css';
+import LanguageContext from '../components/LanguageContext';
 
 const Video = ({ title, description, videoUrl }) => {
+  const { language } = useContext(LanguageContext);
+
   return (
     <div className="video-container">
       <div className="video-text">

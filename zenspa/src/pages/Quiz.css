@@ -78,7 +78,6 @@
 
 .booking-button {
   display: block;
-
   max-width: 300px;
   margin: 20px auto;
   padding: 15px;
@@ -120,6 +119,11 @@
   }
 
   .booking-button {
+    font-size: 1em;
+    padding: 8px 16px;
+  }
+
+  .quiz-submit {
     font-size: 1em;
     padding: 8px 16px;
   }
