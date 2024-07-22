@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./MassagesSoins.css";
-import { engin, rosa } from "../assets/index";
+import { engin, rosa, ale, engin2, adrian, alan} from "../assets/index";
 import { useNavigate } from 'react-router-dom';
 import LanguageContext from '../components/LanguageContext';
 
@@ -32,7 +32,7 @@ const services = [
       fr: "Profitez de notre enveloppement corporel, qui combine des ingrédients naturels pour hydrater et revitaliser votre peau. Disponible à partir de 80$.",
       en: "Enjoy our body wrap, which combines natural ingredients to hydrate and revitalize your skin. Available from $80."
     },
-    image: engin,
+    image: ale,
     people: "Individuel"
   },
   {
@@ -42,7 +42,7 @@ const services = [
       fr: "Le massage aux pierres chaudes utilise des pierres chauffées pour détendre et apaiser les muscles tendus. Disponible à partir de 120$.",
       en: "Hot stone massage uses heated stones to relax and soothe tense muscles. Available from $120."
     },
-    image: engin,
+    image: engin2,
     people: "Individuel"
   },
   {
@@ -52,7 +52,7 @@ const services = [
       fr: "Ce soin anti-âge est conçu pour réduire les signes de vieillissement et améliorer l'élasticité de la peau. Disponible à partir de 90$.",
       en: "This anti-aging facial treatment is designed to reduce signs of aging and improve skin elasticity. Available from $90."
     },
-    image: rosa,
+    image: adrian,
     people: "Individuel"
   },
   {
@@ -62,7 +62,7 @@ const services = [
       fr: "Notre gommage corporel exfolie et adoucit votre peau en utilisant des ingrédients naturels. Disponible à partir de 70$.",
       en: "Our body scrub exfoliates and softens your skin using natural ingredients. Available from $70."
     },
-    image: engin,
+    image: alan,
     people: "Individuel"
   },
   {
