@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState,  useContext} from 'react';
 import Review from '../components/Review';
 import './Avis.css';
+import LanguageContext from '../components/LanguageContext';
 
 const Avis = () => {
+  const { language } = useContext(LanguageContext);
   const [newReview, setNewReview] = useState({ comment: "", rating: 0 });
   const [reviews, setReviews] = useState([
     { comment: "Très bon service!", rating: 5 },
@@ -27,31 +29,31 @@ const Avis = () => {
 
   return (
     <div className="avis-container">
-      <h1>Avis Reçus</h1>
+      <h1>{language === 'fr' ? 'Avis Reçus' : 'Received Reviews'}</h1>
       {reviews.map((review, index) => (
         <Review key={index} comment={review.comment} rating={review.rating} />
       ))}
-      
+
       <form className="review-form" onSubmit={handleSubmit}>
         <input
           type="text"
           name="comment"
           value={newReview.comment}
-          placeholder="Entrez votre commentaire..."
+          placeholder={language === 'fr' ? 'Entrez votre commentaire...' : 'Enter your comment...'}
           onChange={handleInputChange}
           required
         />
-        <h3>Laissez un nombre d'étoiles</h3>
+        <h3>{language === 'fr' ? 'Laissez un nombre d\'étoiles' : 'Leave a star rating'}</h3>
         <input
           type="number"
           name="rating"
           value={newReview.rating}
-          placeholder="Note (1-5)"
+          placeholder={language === 'fr' ? 'Note (1-5)' : 'Rating (1-5)'}
           min="1" max="5"
           onChange={handleInputChange}
           required
         />
-        <button type="submit">Laisser un avis</button>
+        <button type="submit">{language === 'fr' ? 'Laisser un avis' : 'Submit Review'}</button>
       </form>
     </div>
   );
